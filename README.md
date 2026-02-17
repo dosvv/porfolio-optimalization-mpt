@@ -5,7 +5,8 @@ Implementation of **Modern Portfolio Theory (MPT)** to determine the optimal ass
 ## Overview
 This project applies the classical mean–variance framework to approximate the efficient frontier and identify the tangency portfolio (i.e., the portfolio with the maximum Sharpe ratio).
 
-The method is based on Monte Carlo simulation: we generate $10,000$ admissible weight vectors and evaluate the corresponding return–risk pairs.
+The method is based on Monte Carlo simulation: we generate $10,000$ admissible weight vectors to derive the **Efficient Frontier**. The project identifies the **Tangency Portfolio** and visualizes the
+**Capital Market Line (CML)**, representing the optimal risk-return trade-off.
 
 The objective is to maximize the Sharpe ratio:
 
